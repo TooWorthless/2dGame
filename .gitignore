@@ -1,0 +1,8 @@
+/.vs
+/Library
+/Logs
+/obj
+/UserSettings
+.vsconfig
+2dGame-Solodkyi_branch.sln
+Assembly-Csharp.csproj
