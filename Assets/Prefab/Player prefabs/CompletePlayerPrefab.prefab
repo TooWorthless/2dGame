@@ -1337,7 +1337,7 @@ GameObject:
   - component: {fileID: 4212509258948626485}
   m_Layer: 0
   m_Name: CompletePlayerPrefab
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1434,10 +1434,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -2111,6 +2111,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenuPanel: {fileID: 1458593741994837500}
   player: {fileID: 5625231426480416519}
+  button1: {fileID: 7026762521288659626}
+  button2: {fileID: 4692084329464689603}
+  button3: {fileID: 5333370026330383706}
 --- !u!1 &8432487925796111998
 GameObject:
   m_ObjectHideFlags: 0

@@ -38,7 +38,7 @@ public class EnemyFollow : MonoBehaviour
             Vector2 directionOfTravel = player.position - transform.position;
             directionOfTravel.Normalize();
             rb.velocity = directionOfTravel * speed;
-            Debug.Log(player.position);
+            //Debug.Log(player.position);
             //Vector2 currentPosition = new Vector2(transform.position.x, transform.position.y);
             //rb.MovePosition(currentPosition + (directionOfTravel * speed * Time.deltaTime));
             //Debug.Log((directionOfTravel * speed * Time.deltaTime).ToString());
@@ -78,7 +78,7 @@ public class EnemyFollow : MonoBehaviour
     void OnTriggerStay2D(Collider2D col) {
         if(col.gameObject.tag == "Player" && isMove != false) {
             rb.velocity = new Vector2(0,0);
-            Debug.Log(rb.velocity.ToString());
+            //Debug.Log(rb.velocity.ToString());
             time = startTime;
             isMove = false;
             anim.SetBool("isMoving", false);
