@@ -72,7 +72,7 @@ public class PauseMenuContoller : MonoBehaviour
         Time.timeScale = 1f;
     }
     public void ExitGame() 
-    { 
+    {
         Application.Quit();
     }
 }
