@@ -69,17 +69,17 @@ public class PlayerController : MonoBehaviour
     }
 
     
-    public void Flip()
-    {
-        if (isFacingRight && Input.GetAxisRaw("Horizontal") < 0f || !isFacingRight && Input.GetAxisRaw("Horizontal") > 0f)
-        {
+    // public void Flip()
+    // {
+    //     if (isFacingRight && Input.GetAxisRaw("Horizontal") < 0f || !isFacingRight && Input.GetAxisRaw("Horizontal") > 0f)
+    //     {
 
-            isFacingRight = !isFacingRight;
-            Vector3 localScale = transform.localScale;
-            localScale.x *= -1f;
-            transform.localScale = localScale;
-        }
-    }
+    //         isFacingRight = !isFacingRight;
+    //         Vector3 localScale = transform.localScale;
+    //         localScale.x *= -1f;
+    //         transform.localScale = localScale;
+    //     }
+    // }
 
     public void Flip2()
     {
