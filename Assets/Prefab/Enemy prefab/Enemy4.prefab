@@ -320,7 +320,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   startTime: 1
-  damage: 80
+  damage: 220
   anim: {fileID: 2694967202448647244}
   slider: {fileID: 1101568881171525674}
   playerController: {fileID: 0}
