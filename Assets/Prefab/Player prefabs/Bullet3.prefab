@@ -129,6 +129,7 @@ MonoBehaviour:
   speed: 20
   distance: 0.4
   destroy: 3
+  dmg: 15
   layerMask:
     serializedVersion: 2
     m_Bits: 8

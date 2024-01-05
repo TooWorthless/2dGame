@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     public float speed;
     public float distance;
     public int destroy;
+    public float dmg;
 
     public LayerMask layerMask;
     void Start()
@@ -25,7 +26,7 @@ public class Bullet : MonoBehaviour
             if(other.collider.CompareTag("Enemy")) {
                 // Debug.Log(other.collider.GetComponent());
                 DestroyTime();
-                other.collider.GetComponent<Enemy>().TakeDamage(10);
+                other.collider.GetComponent<Enemy>().TakeDamage(dmg);
             }
         }
         transform.Translate( Vector2.up * speed * Time.deltaTime );

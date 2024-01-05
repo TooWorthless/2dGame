@@ -87,5 +87,9 @@ public class PlayerController : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
+
+        Vector3 healthBarScale = healthBar.transform.localScale;
+        healthBarScale.x *= -1f;
+        healthBar.transform.localScale = healthBarScale;
     }
 }

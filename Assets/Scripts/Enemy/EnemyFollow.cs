@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyFollow : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class EnemyFollow : MonoBehaviour
 
     [SerializeField] Animator anim;
 
-
+    public Slider slider;
 
 
 
@@ -104,5 +105,10 @@ public class EnemyFollow : MonoBehaviour
         Vector3 localScale = transform.localScale;
         localScale.x *= -1f;
         transform.localScale = localScale;
+
+
+        Vector3 sliderScale = slider.transform.localScale;
+        sliderScale.x *= -1f;
+        slider.transform.localScale = sliderScale;
     }
 }
