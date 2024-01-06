@@ -2,6 +2,8 @@
 
 ## Гра: Edge of Destiny
 
+### GoogleDrive Link: https://drive.google.com/drive/folders/1h44NDcK36-0OJ-8QA9tY76ALp-dR9m9Y?usp=sharing
+
 
 ## Опис гри:
 
