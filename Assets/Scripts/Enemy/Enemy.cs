@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     public Slider healthBar;
 
     void Start() {
+        health *= Difficulty.enemyHPMultiplayer;
         maxHP = health;
         healthBar.maxValue = maxHP;
     }

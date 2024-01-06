@@ -31,7 +31,7 @@ public class InteractableController : MonoBehaviour
         pickedKey = Instantiate(DestroyedKey, Player.transform, false);
         isPicked = true;
         pickedKey.isPickedUp = true; 
-        pickedKey.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 2f);
+        pickedKey.transform.position = new Vector3(Player.transform.position.x, Player.transform.position.y + 3f);
         pickedKey.transform.rotation = Quaternion.Euler(0,0,0);
         Destroy(pickedKey.GetComponent<BoxCollider2D>());
     }
